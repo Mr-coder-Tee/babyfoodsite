@@ -1,5 +1,5 @@
 body{
-    
+    background: white;
     /*
     background:linear-gradient(to right,#000000,#434343) ;
     background:linear-gradient(to right,#4b79a1,#283e51) ;
@@ -12,3 +12,14 @@ body{
 .header{
     padding: 50px 50px;
 }
+
+
+
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Playball', cursive;
+*/
