@@ -1,5 +1,5 @@
 body{
-    background: white;
+    background: #434343;
     /*
     background:linear-gradient(to right,#000000,#434343) ;
     background:linear-gradient(to right,#4b79a1,#283e51) ;
@@ -12,6 +12,40 @@ body{
 .header{
     padding: 50px 50px;
 }
+.botton-nav{
+    display: flex;
+    text-align: center;
+}
+.nav-icon{
+    opacity: 0;
+}
+
+
+@media(max-width:400px){
+    .botton-nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 10px;
+        background: gray;
+        border-radius: 5px;
+        bottom: 0%;
+        text-align: center;
+    }
+    .item-link{
+        text-decoration: none;
+        color: white;
+    }
+    .item-link:hover{
+        border: 1px solid white;
+    }
+    .nav-icon{
+        opacity: 1;
+    }
+}
+
+
+
+
 
 
 
